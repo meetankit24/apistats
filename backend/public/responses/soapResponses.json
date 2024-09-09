@@ -1,0 +1,33 @@
+{
+  "Calculator": {
+    "request": {
+      "name": "Calculator",
+      "url": "http://www.dneonline.com/calculator.asmx?wsdl",
+      "method": "Add",
+      "data": {
+        "intA": 5,
+        "intB": 8
+      }
+    },
+    "response": [
+      {
+        "timestamp": 1725865204058,
+        "response": {
+          "AddResult": 13
+        }
+      },
+      {
+        "timestamp": 1725870135659,
+        "response": {
+          "AddResult": 13
+        }
+      },
+      {
+        "timestamp": 1725870183515,
+        "response": {
+          "AddResult": 13
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "Employees": {
+    "request": {
+      "name": "Employees",
+      "url": "https://dummy.restapiexample.com/api/v1/employee/1",
+      "method": "GET",
+      "headers": {}
+    },
+    "response": [
+      {
+        "timestamp": 1725635281917,
+        "response": {
+          "status": "success",
+          "data": {
+            "id": 1,
+            "employee_name": "Tiger Nixon",
+            "employee_salary": 320800,
+            "employee_age": 61,
+            "profile_image": ""
+          },
+          "message": "Successfully! Record has been fetched."
+        }
+      },
+      {
+        "timestamp": 1725865218890,
+        "response": {
+          "status": "success",
+          "data": {
+            "id": 1,
+            "employee_name": "Tiger Nixon",
+            "employee_salary": 320800,
+            "employee_age": 61,
+            "profile_image": ""
+          },
+          "message": "Successfully! Record has been fetched."
+        }
+      },
+      {
+        "timestamp": 1725870137507,
+        "response": {
+          "status": "success",
+          "data": {
+            "id": 1,
+            "employee_name": "Tiger Nixon",
+            "employee_salary": 320800,
+            "employee_age": 61,
+            "profile_image": ""
+          },
+          "message": "Successfully! Record has been fetched."
+        }
+      }
+    ]
+  },
+  "Electronics": {
+    "request": {
+      "name": "Electronics",
+      "url": "https://api.restful-api.dev/objects/7",
+      "method": "GET",
+      "headers": {}
+    },
+    "response": [
+      {
+        "timestamp": 1725635283129,
+        "response": {
+          "id": "7",
+          "name": "Apple MacBook Pro 16",
+          "data": {
+            "year": 2019,
+            "price": 1849.99,
+            "CPU model": "Intel Core i9",
+            "Hard disk size": "1 TB"
+          }
+        }
+      },
+      {
+        "timestamp": 1725865223267,
+        "response": {
+          "id": "7",
+          "name": "Apple MacBook Pro 16",
+          "data": {
+            "year": 2019,
+            "price": 1849.99,
+            "CPU model": "Intel Core i9",
+            "Hard disk size": "1 TB"
+          }
+        }
+      },
+      {
+        "timestamp": 1725870142961,
+        "response": {
+          "id": "7",
+          "name": "Apple MacBook Pro 16",
+          "data": {
+            "year": 2019,
+            "price": 1849.99,
+            "CPU model": "Intel Core i9",
+            "Hard disk size": "1 TB"
+          }
+        }
+      }
+    ]
+  }
+}
